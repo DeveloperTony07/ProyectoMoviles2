@@ -93,6 +93,8 @@
     <string name="txt_message">Message</string>
     <!-- txt send -->
     <string name="txt_send">Send</string>
+    <string name="title_activity_act_maps">Act_maps</string>
+    <string name="title_activity_act_mapas">act_mapas</string>
     <!--End frm_Register_Appointment-->
 
 </resources>

@@ -16,7 +16,7 @@ import com.example.proyectomoviles.controller.Database;
 public class act_Start extends AppCompatActivity {
 
     Database db;
-    private Button btnSingUp, btnLogin, btnUserList;
+    private Button btnSingUp, btnLogin, btnUserList,btnUbi;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -27,7 +27,16 @@ public class act_Start extends AppCompatActivity {
 
         btnSingUp = findViewById(R.id.btnSingUp);
         btnLogin = findViewById(R.id.btnLogin);
-        btnUserList = findViewById(R.id.btnSeeUserList);
+        btnUserList = findViewById(R.id.btnSeeUserList2);
+        btnUbi = findViewById(R.id.btnUbi);
+
+        btnUbi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1  = new Intent(act_Start.this, act_mapas.class);
+                startActivity(intent1);
+            }
+        });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

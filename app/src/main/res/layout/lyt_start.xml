@@ -23,9 +23,8 @@
             android:textSize="@dimen/titles_size"
             android:textStyle="bold" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/commun_margin" />
+        <Space android:layout_width="match_parent"
+            android:layout_height="@dimen/common_size"/>
 
         <TextView
             android:id="@+id/textView7"
@@ -37,7 +36,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="@dimen/large_margin" />
+            android:layout_height="@dimen/common_size" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -47,7 +46,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="@dimen/large_margin" />
+            android:layout_height="@dimen/common_size" />
 
         <Button
             android:id="@+id/btnLogin"
@@ -61,21 +60,31 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="@dimen/commun_margin" />
+            android:layout_height="@dimen/common_size" />
 
         <Button
-            android:id="@+id/btnSeeUserList"
+            android:id="@+id/btnSeeUserList2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/marginx_bottons"
             android:layout_marginEnd="@dimen/marginx_bottons"
             android:backgroundTint="@color/dark_blue"
             android:text="@string/btn_user_list"
-            app:cornerRadius="5dp"/>
+            app:cornerRadius="5dp" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="@dimen/commun_margin" />
+            android:layout_height="@dimen/common_size" />
+
+        <Button
+            android:id="@+id/btnUbi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginx_bottons"
+            android:layout_marginEnd="@dimen/marginx_bottons"
+            android:backgroundTint="@color/dark_blue"
+            android:text="Localization"
+            app:cornerRadius="5dp" />
 
         <Button
             android:id="@+id/btnSingUp"
